@@ -1,0 +1,27 @@
+
+/* time to complete: 5 mins, nth child from previous activity helps a lot*/
+tr:nth-child(4n+1) {
+    background-color: #427fef;
+    color: white;
+}   
+
+tr:nth-child(2n)
+{
+    background-color: #D3D3D3;
+}
+
+/*time to complete: 10min, had to search because border wasnt working. outline instead works */
+tr
+{
+    outline: 2px solid #c4dcf3;
+}
+
+/*time to complete: 10min, had to search the syntax for box shadow styling*/
+#box
+{
+    width: 300px;
+    height: 300px;
+    background-color: #ea0000;
+    border-radius: 15px;
+    box-shadow: 10px 10px lightgrey;
+}
